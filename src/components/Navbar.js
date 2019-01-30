@@ -25,6 +25,9 @@ class Navbar extends Component {
                 <li><a href="#">Projetos</a></li>
                 <li><a href="#">Contato</a></li>
               </ul>
+              <div className="">
+
+              </div>
             </div>
           </div>
         </nav>

@@ -156,6 +156,13 @@ body {
 	padding: 15px 20px 15px 20px;
 	border: 0px;
 	border-radius: 100px;
+	cursor: pointer;
+	transition: .2s;
+}
+.btnOrcamento:hover {
+	background-color: #033F6C;
+	color: #FDC660;
+	transition: .2s;
 }
 .box-btn-slide {
 	bottom: 0;
