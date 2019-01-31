@@ -14,21 +14,21 @@ class Servicos extends Component {
             <article className="box-services">
               <div className="item-service">
                 <img src={portas} />
-                <h3>fabricação de portas e janelas</h3>
+                <h3>portas e janelas</h3>
                 <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
                 </p>
               </div>
               <div className="item-service">
                 <img src={portoes} />
-                <h3>fabricação de portões e grades</h3>
+                <h3>portões e grades</h3>
                 <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
                 </p>
               </div>
               <div className="item-service">
                 <img src={telhado} />
-                <h3>fabricação de coberturas metalicas</h3>
+                <h3>coberturas metalicas</h3>
                 <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
                 </p>

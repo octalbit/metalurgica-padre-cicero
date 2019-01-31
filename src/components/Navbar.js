@@ -8,7 +8,7 @@ class Navbar extends Component {
             <div className="container-navinfo">
               <span>(86) 99500-5246 / (86) 99571-3097 - padrecicerometalurgica@hotmail.com</span>
               <span>
-              Siga a metPadreCicero
+              Siga a metalurgicapadrecicero
               <a href="#"><i className="ion-social-facebook"></i></a> 
               <a href="#"><i className="ion-social-instagram"></i></a>
               </span>
@@ -25,7 +25,7 @@ class Navbar extends Component {
                 <li><a href="#">Projetos</a></li>
                 <li><a href="#">Contato</a></li>
               </ul>
-              <div className="">
+              <div className="menu-mobile">
 
               </div>
             </div>

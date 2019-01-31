@@ -15,13 +15,13 @@ class Contacts extends Component {
               <ul>
                 <li>+55 86 99500-5246 </li>
                 <li>+55 86 99571-3097</li>
-                <li>padrecicerometalurgica@hotmail.com</li>
+                <li><a href="">padrecicerometalurgica</a></li>
               </ul>
 
 
             </div> 
             <div className="form-contacts">
-              <form action="">
+              <form action="" className="box-form">
                 <input type="text" className="inputText" />
                 <input type="text" className="inputText" />                <textarea>
 

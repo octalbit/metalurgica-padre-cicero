@@ -3,7 +3,7 @@ class Footer extends Component {
   render() {
     return (
         <footer>
-          <span>© 2019 - TODOS OS DIREITOS RESERVADOS - METALÚRGICA Padre Cícero</span>
+          <span>© 2019 - Todos os direitos reservados - Metalúrgica Padre Cícero</span>
         </footer>
     );
   }
