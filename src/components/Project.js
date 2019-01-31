@@ -7,7 +7,7 @@ import tes from '../assets/tes.png'
 class Project extends Component {
   render() {
     return (
-        <section className="Projects">
+        <section className="Projects" id="projects">
           <div className="section-title">
             <h2>Conheça nossos projetos</h2>
             <span>Confira abaixo os projetos realizados com as peças de metal fabricadas pela Metalúrgica Padre Cícero</span>

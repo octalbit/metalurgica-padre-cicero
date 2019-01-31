@@ -5,7 +5,7 @@ import telhado from '../assets/telhados.png'
 class Servicos extends Component {
   render() {
     return (
-        <section className="Sevices">
+        <section className="Sevices" id="services">
           <div className="section-title">
             <h2>nossos serviços</h2>
             <span>A Metalúrgica Padre Cícero tem os mais variados serviços em estruturas metalicas</span>

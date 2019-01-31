@@ -20,10 +20,10 @@ class Navbar extends Component {
               <img className="brand" src={brand} alt="Padre Cicero"/>
               </div>
               <ul className="menu">
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contacts">Contato</a></li>
               </ul>
               <div className="menu-mobile">
 

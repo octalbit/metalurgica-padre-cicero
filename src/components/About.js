@@ -5,7 +5,7 @@ import AboutImg3 from '../assets/005-welder-19.png'
 class About extends Component {
   render() {
     return (
-        <section className="About">
+        <section className="About" id="about">
           <div className="section-title section-title-2">
             <h2>sobre nossa empresa</h2>
             <span>Conheça agora um pouco da nossa historia e do nosso comprometimento com você</span>

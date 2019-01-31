@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 class Contacts extends Component {
   render() {
     return (
-        <section className="Contacts">
+        <section className="Contacts" id="contacts">
           <div className="section-title">
             <h2>venha falar conosco</h2>
             <span>Faça agora um orçamento conosco, assim descobriremos quais obras a Metalúrgica Padre Cícero fará para você</span>
