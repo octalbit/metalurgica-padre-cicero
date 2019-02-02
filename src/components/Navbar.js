@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import brand from '../assets/padrecicero.png'
 class Navbar extends Component {
+
   render() {
     return (
         <nav className="navbar">
@@ -25,8 +26,8 @@ class Navbar extends Component {
                 <li><a href="#projects">Projetos</a></li>
                 <li><a href="#contacts">Contato</a></li>
               </ul>
-              <div className="menu-mobile">
-
+              <div className="icon-mobile">
+                <div className="icon"></div>
               </div>
             </div>
           </div>

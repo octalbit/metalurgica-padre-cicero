@@ -54,7 +54,8 @@ img {
 
 body {
   font-family: 'Raleway', sans-serif;
-  background: #F1F5EC;
+	background: #F1F5EC;
+	box-sizing: border-box;
 }
 
 .wrapper {
@@ -92,7 +93,9 @@ body {
 	color: #FDC660;
 	transition: .2s;
 }
-
+.icon-mobile {
+	display: none;
+}
 .subNavbar {
 	width: 100%;
 	background: #033F6C;
@@ -147,6 +150,7 @@ body {
 		max-width: 70%;
 		margin: 0px 0px 0px 5px;
 	}
+	
 }
 /* hero */
 .hero-box {
@@ -208,20 +212,22 @@ body {
 @media (max-width: 320px) {
 	.hero-box h1 {
 		font-size: 2.0rem;
+		max-width: 80%;
 	}
 	.hero-box span {
 		font-size: 1.0rem;
-		max-width: 220px;
+		max-width: 80%;
 		line-height: 1.2rem;
 	}
 }
 @media (min-width: 320px) and (max-width: 780px) {
 	.hero-box h1 {
 		font-size: 2.5rem;
+		max-width: 80%;
 	}
 	.hero-box span {
 		font-size: 1.2rem;
-		max-width: 400px;
+		max-width: 80%;
 		line-height: 1.2rem;
 	}
 }
@@ -229,6 +235,8 @@ body {
 /* Title */
 .section-title {
 	text-align: center;
+	width: 100%;
+	height: 100%;
 }
 .section-title h2 {
 	padding: 70px 0px 20px 0px;
@@ -259,7 +267,7 @@ body {
 	}
 	.section-title span {
 		font-size: 1.0rem;
-		max-width: 220px;
+		max-width: 80%;
 	}
 }
 @media (min-width: 320px) and (max-width: 780px) {
@@ -268,11 +276,15 @@ body {
 	}
 	.section-title span {
 		font-size: 1.2rem;
-		max-width: 400px;
+		max-width: 80%;
 	}
 }
 
 /* services */
+.Sevices {
+	width: 100%;
+	height: 100%;
+}
 .container-services {
 	max-width: 1180px;
 	margin: auto;
@@ -366,6 +378,7 @@ body {
 	}
 	.box-text p {
 		margin: 0px 10px 0px 10px;
+		max-width: 100%;
 	}
 }
 @media (min-width: 320px) and (max-width: 780px) {
@@ -378,6 +391,7 @@ body {
 	}
 	.box-text p {
 		margin: 0px 10px 0px 10px;
+		max-width: 100%;
 	}	
 }
 .box-subAbout {
@@ -428,7 +442,7 @@ body {
 		padding: 20px 10px 0px 10px;
 	}
 	.item-subAbout p {
-		max-width: 220px;
+		max-width: 80%;
 	}
 }
 @media (min-width: 320px) and (max-width: 780px) {
@@ -476,9 +490,45 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 }
-.main-project .img {
+.main-project .boxProject {
 	width: 25%;
 }
+.boxProject {
+	overflow: hidden;
+	background: #033F6C;
+}
+.boxProject .imgBox {
+	position: relative;
+}
+.boxProject .imgBox .imgItem {
+	width: 100%;
+	transition: .2s;
+}
+.boxProject:hover .imgBox .imgItem {
+	opacity: .2;
+	transform: scale(1.2)
+}
+.boxProject .imgContent {
+	position: relative;
+	background-color: #FDC660;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	z-index: 999;
+	box-sizing: border-box;
+} 
+.boxProject .imgContent h4 {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	color: #fff;
+	z-index: 999;
+	
+} 
+.boxProject:hover .imgContent h4 {
+	opacity: 1;
+	visibility: hidden;
+} 
 .imgP {
 	max-width: 100%;
 }
@@ -495,11 +545,11 @@ body {
 		display: block;
 		max-width: 100%;
 	}
-	.main-project .img {
+	.main-project .boxProject {
 		width: 100%;
 		margin: auto;
 	}
-	.imgP {
+	.boxProject {
 		margin: auto;
 		display: block;
 	}
@@ -517,10 +567,11 @@ body {
 		display: block;
 		max-width: 100%;
 	}
-	.main-project .img {
+	.main-project .boxProject {
 		width: 100%;
+		margin: auto;
 	}
-	.imgP {
+	.boxProject {
 		margin: auto;
 		display: block;
 	}
@@ -558,7 +609,7 @@ body {
 }
 @media (max-width: 320px) {
 	.assessments p {
-		max-width: 220px;
+		max-width: 80%;
 	} 
 }
 @media (min-width: 320px) and (max-width: 780px) {
@@ -608,12 +659,19 @@ body {
 	border: 2px solid #033F6C;
 	background: transparent;
 	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 0px 10px;
+	color: #033F6C;
+	font-weight: bold;
 }
 textarea {
 	width: 100%;
 	height: 60px;
 	border: 2px solid #033F6C;
 	margin: 0px 0px 20px 0px;
+	padding: 5px 0px 0px 10px;
+	background: transparent;
+	color: #033F6C;
+	font-weight: bold;
 }
 .btnForm {
 	background: #033F6C;
@@ -655,7 +713,7 @@ textarea {
 		width: 90%;
 	}
 	textarea {
-		width: 88%;
+		width: 90%;
 	}
 }
 @media (min-width: 320px) and (max-width: 780px) {
@@ -682,7 +740,7 @@ textarea {
 		width: 90%;
 	}
 	textarea {
-		width: 88%;
+		width: 90%;
 	}
 }
 /* footer */

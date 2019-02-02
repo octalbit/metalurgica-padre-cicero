@@ -20,29 +20,69 @@ class Project extends Component {
               <li><a href="#">coberturas ecológicas</a></li>
             </ul>
             <div className="main-project">
-              <div className="img">
-                <img className="imgP" src={project1} />
+              <div className="boxProject">
+                <div className="imgBox">
+                  <img className="imgItem" src={project1} />
+                </div>
+                <div className="imgContent">
+                  <h4>Lorem Ipsun</h4>
+                </div>
               </div>
-              <div className="img">
-                <img className="imgP" src={project2} />
+              <div className="boxProject">
+                <div className="imgBox">
+                  <img className="imgItem" src={project1} />
+                </div>
+                <div className="imgContent">
+                  <h4>Lorem Ipsun</h4>
+                </div>
               </div>
-              <div className="img">
-                <img className="imgP" src={project3} />
+              <div className="boxProject">
+                <div className="imgBox">
+                  <img className="imgItem" src={project1} />
+                </div>
+                <div className="imgContent">
+                  <h4>Lorem Ipsun</h4>
+                </div>
               </div>
-              <div className="img">
-                <img className="imgP" src={project4} />
+              <div className="boxProject">
+                <div className="imgBox">
+                  <img className="imgItem" src={project1} />
+                </div>
+                <div className="imgContent">
+                  <h4>Lorem Ipsun</h4>
+                </div>
               </div>
-              <div className="img">
-                <img className="imgP" src={project1} />
+              <div className="boxProject">
+                <div className="imgBox">
+                  <img className="imgItem" src={project1} />
+                </div>
+                <div className="imgContent">
+                  <h4>Lorem Ipsun</h4>
+                </div>
               </div>
-              <div className="img">
-                <img className="imgP" src={project2} />
+              <div className="boxProject">
+                <div className="imgBox">
+                  <img className="imgItem" src={project1} />
+                </div>
+                <div className="imgContent">
+                  <h4>Lorem Ipsun</h4>
+                </div>
               </div>
-              <div className="img">
-                <img className="imgP" src={project3} />
+              <div className="boxProject">
+                <div className="imgBox">
+                  <img className="imgItem" src={project1} />
+                </div>
+                <div className="imgContent">
+                  <h4>Lorem Ipsun</h4>
+                </div>
               </div>
-              <div className="img">
-                <img className="imgP" src={project4} />
+              <div className="boxProject">
+                <div className="imgBox">
+                  <img className="imgItem" src={project1} />
+                </div>
+                <div className="imgContent">
+                  <h4>Lorem Ipsun</h4>
+                </div>
               </div>
             </div>
             <blockquote className="assessments">
