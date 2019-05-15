@@ -8,7 +8,7 @@ class Header extends Component {
         <header className="wrapper">
           <Navbar />
           <section className="hero-box">
-            <h1>a melhor metalúgica 
+            <h1>a melhor metalúrgica 
               do medio parnaiba</h1>
             <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
             <a href="#contacts" className="btnOrcamento">Solicitar Orçamento</a> 

@@ -23,10 +23,9 @@ class Contacts extends Component {
             <div className="form-contacts">
               <form action="" className="box-form">
                 <input type="text" className="inputText" />
-                <input type="text" className="inputText" />                <textarea>
-
-                </textarea>
-                <button className="btnForm">enviar</button>
+                <input type="text" className="inputText" />                
+                <textarea></textarea>
+                <button className="btnForm">Enviar</button>
               </form>
             </div>
           </div>
