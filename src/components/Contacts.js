@@ -13,18 +13,19 @@ class Contacts extends Component {
               <p>Avenida Petrônio Portela, n° 431 Bairro Centro - Angical - Piauí - Brasil.</p>
 
               <ul>
-                <li>+55 86 99500-5246 </li>
-                <li>+55 86 99571-3097</li>
-                <li><a href="">padrecicerometalurgica</a></li>
+                <li><strong>Edvaldo:  </strong><a href='tel:+5586995005246'>+55 86 99500-5246</a></li>
+                <li><strong>Rafael:  </strong><a href='tel:+5586995713097'>+55 86 99571-3097</a></li>
+                <li><strong>Email:  </strong><a href="mailto:padrecicerometalurgica@hotmail.com">padrecicerometalurgica@hotmail.com</a></li>
               </ul>
 
 
             </div> 
             <div className="form-contacts">
               <form action="" className="box-form">
-                <input type="text" className="inputText" />
-                <input type="text" className="inputText" />                
-                <textarea></textarea>
+                <input type="text" className="inputText" placeholder='Nome e sobrenome'/>
+                <input type="text" className="inputText" placeholder='Telefone'/>
+                <input type="text" className="inputText" placeholder='Assunto'/>                
+                <textarea placeholder='...'></textarea>
                 <button className="btnForm">Enviar</button>
               </form>
             </div>

@@ -318,9 +318,10 @@ body {
 	padding: 0px 0px 20px 0px;
 }
 .item-service p {
-	font-size: 1rem;
+	font-size: 1.1rem;
 	text-align: center;
 	max-width: 250px;
+	line-height: 20px;
 	color: #3B3F4A;
 }
 @media (max-width: 320px) {
@@ -472,7 +473,7 @@ body {
 	display: flex;
 	justify-content: center;
 }
-.menu-projects li a{
+.menu-projects li p{
 	margin: 0px 10px 0px 10px;
 	font-size: 1.0rem;
 	text-transform: uppercase;
@@ -480,28 +481,40 @@ body {
 	text-decoration: none;
 	transition: .2s;
 }
-.menu-projects li a:hover {
+.menu-projects li p:hover {
 	font-weight: bold;
 	color: #033F6C;
 	transition: .2s;
+	cursor: pointer;
 }
 .main-project {
-	padding: 30px 0px 0px 0px;
+	padding: 50px 0px 0px 0px;
 	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: center;
 	flex-wrap: wrap;
 }
 .main-project .boxProject {
-	width: 25%;
+	width: 300px;
+	height: 250px;
+	margin: 3px;
 }
 .boxProject {
 	overflow: hidden;
-	background: #033F6C;
+	background: rgba(14, 86, 141, 0.801);
 }
 .boxProject .imgBox {
 	position: relative;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
 }
 .boxProject .imgBox .imgItem {
 	width: 100%;
+	height: 100%;
 	transition: .2s;
 }
 .boxProject:hover .imgBox .imgItem {
@@ -645,10 +658,16 @@ body {
 	margin: 0px 0px 20px 0px;
 	max-width: 400px;
 }
-.plus-contacts ul li {
+.plus-contacts ul li a {
 	font-size: 1.0rem;
-	color: #3B3F4A;
-	margin: 0px 0px 10px 0px;
+	color: #033F6C;
+	margin: 10px 0px 10px 0px;
+}
+.plus-contacts ul li {
+	margin-top: 15px;
+}
+.plus-contacts ul li strong {
+	margin-right: 10px;
 }
 .form-contacts {
 	width: 50%;

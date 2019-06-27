@@ -16,21 +16,21 @@ class Servicos extends Component {
                 <img src={portas} />
                 <h3>portas e janelas</h3>
                 <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+                  Fabricação de portas em geral a partir de qualquer modelo.
                 </p>
               </div>
               <div className="item-service">
                 <img src={portoes} />
                 <h3>portões e grades</h3>
                 <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+                Fabricação de portões e portas dos mais variados estilos e modelos.
                 </p>
               </div>
               <div className="item-service">
                 <img src={telhado} />
                 <h3>coberturas metalicas</h3>
                 <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+                Coberturas em geral com diversos tipos de matériais, desde telhas ecológicas até zinco.
                 </p>
               </div>
             </article>

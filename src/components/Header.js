@@ -8,13 +8,12 @@ class Header extends Component {
         <header className="wrapper">
           <Navbar />
           <section className="hero-box">
-            <h1>a melhor metalúrgica 
-              do medio parnaiba</h1>
-            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+            <h1>metalúrgica padre cícero</h1>
+            <span>Qualidade e Pontualidade</span>
             <a href="#contacts" className="btnOrcamento">Solicitar Orçamento</a> 
             <div className="box-btn-slide">
               <a href="#" className="btnOne"><img src={ArrowUp} /></a>
-              <a href="#" className="btnTwo"><img src={ArrowDown} /></a>
+              <a href="#services" className="btnTwo"><img src={ArrowDown} /></a>
             </div>      
           </section>
         </header>
