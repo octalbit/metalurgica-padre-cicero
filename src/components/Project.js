@@ -129,7 +129,7 @@ class Project extends Component {
             <blockquote className="assessments">
               <span><img src={tes} alt=''/></span>
               <p>
-              Realmente uma das melhores Metalúrgicas do médio Parnaíba, além do material que é de ótima qualidade, o atendimento é rápido e eficaz. Gostei muito! 
+              Realmente uma das melhores Metalúrgicas do Médio Parnaíba, além do material que é de ótima qualidade, o atendimento é rápido e eficaz. Gostei muito! 
               </p>
               <cite>Rafael Souza</cite>
             </blockquote>
